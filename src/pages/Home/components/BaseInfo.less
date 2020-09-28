@@ -1,0 +1,36 @@
+.BaseInfo{
+  height: 230px;
+  border-radius: 4px;
+  background:rgb(255,255,255);
+  padding:20px;
+  :global {
+    .content-top{
+      height: 50%;
+      border-bottom: 1px solid rgb(216,216,216);
+      .avatarBox{
+        display:flex;
+        align-items: center;
+        .userInfo{
+          margin-left:15px;
+          font-weight: 600;
+        }
+      }
+    }
+    .content-btm{
+      height: 50%;
+      padding-top:20px;
+      .infoItem{
+        display:flex;
+        p:nth-of-type(1){
+          font-size: 16px;
+          color: rgb(51,51,51);
+          width: 60px;
+        }
+        p:nth-of-type(2){
+          font-size: 16px;
+          color: rgb(151,151,151);
+        }
+      }
+    }
+  }
+}
